@@ -8,6 +8,8 @@
   
   <title>Frontend Mentor | Huddle landing page with alternating feature blocks</title>
 
+  <link rel="stylesheet" href="./css/style.css">
+
   <!-- =====font awesome CDN===== -->
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css"
     integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
@@ -22,13 +24,11 @@
   <div class="container">
     <section class="section-one">
       <header class="header">
-        <img src="./images/logo.svg" alt="logo"/>
-        <div class="btn btn--header">
-          <button type="submit">Try It Free</button>
-        </div>
+        <img src="./images/logo.svg" alt="logo" class="logo"/>
+          <button type="submit" class="btn btn__header">Try It Free</button>
       </header>
       <div class="container__middle">
-        <div class="container--leftt">
+        <div class="container--left">
           <h1 class="heading__primary">Build The Community <br/>
             Your Fans Will Love</h1>
             <p class="text">
@@ -84,16 +84,18 @@
       <h2 class="absolute__heading">Ready To Build Your Community?</h2>
       <button type="submit" class="btn btn--absolute">Get Started For Free</button>
     </div>
-  </div>
+  </div> 
   <footer>
     <div class="footer-wrapper">
-      <img src="./images/logo.svg" alt="">
+      <img src="./images/logo 2/logo.svg" alt="">
       <div class="footer-info">
         <div class="contacts">
           <div class="contacts__location">
-            <img src="./images/icon-location.svg" alt="">
-            <span class="footer__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-            incididunt ut labore et dolore magna aliqua</span>
+              <img src="./images/icon-location.svg" alt="">
+            <span class="footer__text"><address>
+              Lorem ipsum 
+            </address>
+            </span>
           </div>
           <div class="contacts__phone">
             <img src="./images/icon-phone.svg" alt="">
@@ -104,31 +106,30 @@
             <span class="footer__text"><a href="mailto:example@huddle.com">example@huddle.com</a></span>
           </div>
         </div>
-        <div class="footer links">
+        <div class="footer__link">
           <ul class="footer__links">
             <li class="footer__items"><a href="#" class="links"></a>About us</li>
             <li class="footer__items"><a href="#" class="links"></a>What We Do</li>
             <li class="footer__items"><a href="#" class="links"></a>FAQ</li>
           </ul>
-          <div class="footer__links two">
-            li class="footer__items"><a href="#" class="links"></a>About us</li>
-            <li class="footer__items"><a href="#" class="links"></a>What We Do</li>
-            <li class="footer__items"><a href="#" class="links"></a>FAQ</li>
-          </div>
+          <ul class="footer__links two">
+            <li class="footer__items"><a href="#" class="links"></a>Career</li>
+            <li class="footer__items"><a href="#" class="links"></a>blog</li>
+            <li class="footer__items"><a href="#" class="links"></a>contact us</li>
+          </ul>
         </div>
         <div class="social-media">
-          <i class="fab fa-facebook-f"></i>
-          <i class="fab fa-twitter"></i>
-          <i class="fab fa-instagram"></i>
+          <a href="" class="btn-icon"><i class="fab fa-facebook-f"></i></a>
+          <a href="" class="btn-icon"><i class="fab fa-twitter"></i></a>
+          <a href="" class="btn-icon"><i class="fab fa-instagram"></i></a>
         </div>
       </div>
-    </div>
-    <div class="copyright">
-      <p class="footer-text">&copy; Copyright 2018 Huddle. All rights reserved.</p>
+      <div class="copyright">
+        <p class="footer-text">&copy; Copyright 2018 Huddle. All rights reserved.</p>
+      </div>
     </div>
     <p class="attribution">
-      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-      Coded by <a href="#">Your Name Here</a>.
+      Coded by <a href="https://github.com/daudi13">David Ouma</a>.
     </p>
   </footer>
 </body>
